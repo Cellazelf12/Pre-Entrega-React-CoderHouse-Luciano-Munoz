@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/css/main.eee8f136.css",
+    "main.js": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/main.82155467.js",
+    "static/js/787.fd7dd52a.chunk.js": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/787.fd7dd52a.chunk.js",
+    "index.html": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/index.html",
+    "main.eee8f136.css.map": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/css/main.eee8f136.css.map",
+    "main.82155467.js.map": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/main.82155467.js.map",
+    "787.fd7dd52a.chunk.js.map": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/787.fd7dd52a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eee8f136.css",
+    "static/js/main.82155467.js"
+  ]
+}
