@@ -36,6 +36,13 @@ function DropdownList() {
                         <span>Accesorios</span>
                     </Link>
                 </li>
+                <li>
+                    <Link
+                        to="/category/Juegos"
+                    >
+                        <span>Juegos</span>
+                    </Link>
+                </li>
             </ul>
         </div>
     );
