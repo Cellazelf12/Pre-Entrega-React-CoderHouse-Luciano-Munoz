@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/css/main.978631a2.css",
-    "main.js": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/main.b067e0ea.js",
+    "main.js": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/main.14e53a2c.js",
     "static/js/787.bb9bbc6c.chunk.js": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/787.bb9bbc6c.chunk.js",
     "index.html": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/index.html",
     "main.978631a2.css.map": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/css/main.978631a2.css.map",
-    "main.b067e0ea.js.map": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/main.b067e0ea.js.map",
+    "main.14e53a2c.js.map": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/main.14e53a2c.js.map",
     "787.bb9bbc6c.chunk.js.map": "/Pre-Entrega-React-CoderHouse-Luciano-Munoz/static/js/787.bb9bbc6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.978631a2.css",
-    "static/js/main.b067e0ea.js"
+    "static/js/main.14e53a2c.js"
   ]
 }
