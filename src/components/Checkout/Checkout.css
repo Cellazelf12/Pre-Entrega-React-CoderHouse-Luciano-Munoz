@@ -1,0 +1,51 @@
+.checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout-button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkout-button:hover {
+    background-color: #388e3c;
+}
+
+.checkout-loading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.checkout-order-id {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.checkout-error {
+    color: red;
+    margin-top: 2rem;
+}

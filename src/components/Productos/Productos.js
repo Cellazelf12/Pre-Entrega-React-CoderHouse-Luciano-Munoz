@@ -19,7 +19,7 @@ function DropdownList() {
                     <Link
                         to="/"
                     >
-                        <span>---</span>
+                        <span>Todos</span>
                     </Link>
                 </li>
                 <li>

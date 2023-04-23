@@ -1,55 +1,62 @@
-.CardItem {
-    width: 500px;
-    padding: 30px;
-    margin: 30px;
-    font-size: 10px;
-    background-color: cadetblue;
-    border: 1px solid #e1e1e1;
-    border-radius: 10px;
-}
-
-.ContainerItem {
+.item-detail-container {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    border-radius: 25px;
-}
-
-.ItemHeader {
-    display: flex;
-    justify-content: center;
-    color: #FFFFFF;
-}
-
-.Info {
-    font-size: 12px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.Button {
-    width: auto;
-    padding: 12px;
-    font-size: 8px;
-    background: #8C30F5;
-    border-radius: 8px;
-    flex: none;
-    display: flex;
-    order: 1;
-    align-self: center;
-    flex-grow: 0;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    margin: 2rem auto;
+    max-width: 80%;
+}
+
+.item-detail-image-container {
+    width: 50%;
+}
+
+.item-detail-image {
+    width: 100%;
+    height: auto;
+}
+
+.item-detail-info-container {
+    width: 45%;
+}
+
+.item-detail-name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.item-detail-category {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.item-detail-description {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.item-detail-price {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.item-detail-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.item-detail-button {
+    display: inline-block;
+    background-color: #1e88e5;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
     text-decoration: none;
-    color: #FFFFFF;
-    border: none;
-    border-style: none;
-    cursor: pointer;
-    outline: inherit;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease-in-out;
 }
 
-.ItemImg {
-    width: 200px;
-    height: 200px;
-    align-items: center;
+.item-detail-button:hover {
+    background-color: #1976d2;
 }

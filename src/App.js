@@ -1,26 +1,34 @@
-import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
 import './App.css';
 
-const App = () => {
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import Navbar from './components/Navbar/Navbar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+import Cart from './components/Cart/Cart';
+import Checkout from './components/Checkout/Checkout';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+
+import { CartProvider } from './context/CartContext';
+
+const App = () => {
   return (
     <BrowserRouter>
-      <div>
+      <CartProvider>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<ItemListContainer text={"Bienvenido a Cyber Market"} />}></Route>
-          <Route exact path="/category/:categoryId" element={<ItemListContainer text={'Productos filtrados por categoria'}/>}/>
-          <Route exact path="/item/:itemName" element={<ItemDetailContainer />}/>
-          <Route exact path='/carrito'></Route>
+          <Route path="/" element={<ItemListContainer greeting={'Bienvenido a Cyber-Market'} />} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/category/:categoryId" element={<ItemListContainer greeting={'Productos filtrados por categoria'} />} />
+          <Route path="/item/:itemId" element={<ItemDetailContainer />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
-      </div>
+      </CartProvider>
     </BrowserRouter>
-  );
+  )
 }
 
 export default App;

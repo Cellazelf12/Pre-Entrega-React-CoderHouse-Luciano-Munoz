@@ -1,5 +1,7 @@
+import "../../App.css"
+
 const Button = (props) =>{
-    return <button onClick={props.callback}>{props.name}</button>;
+    return <button className="Button" onClick={props.callback}>{props.label}</button>;
 }
 
 export default Button;

@@ -1,43 +1,65 @@
-.Counter {
+.item-count {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 300px;
-    margin: auto;
-}
-
-.Button {
-    text-decoration: none;
-    border-radius: 25;
-    margin: 0 30px;
-    width: auto;
-    padding: 12px;
-    font-size: 8px;
-    background: #8C30F5;
-    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-count__controls {
     display: flex;
-    align-self: center;
-    flex-grow: 0;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-decoration: none;
-    color: #FFFFFF;
-    border: none;
-    border-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .item-count__button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #eee;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    outline: inherit;
-    font-size: larger;
-}
-
-.Number {
-    font-size: 20px;
-    padding: 20px;
-    margin: 0;
-    order: 1;
-}
-
-.Controls {
+    transition: background-color 0.3s ease;
+    outline: none;
+    border: none;
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+  }
+  
+  .item-count__button:hover {
+    background-color: #ccc;
+  }
+  
+  .item-count__number {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .item-count__add-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    width: 100%;
+  }
+  
+  .item-count__add-button:hover {
+    background-color: #444;
+  }
+  
